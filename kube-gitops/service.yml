@@ -5,9 +5,9 @@ metadata:
   namespace: devops-training
 spec:
   ports:
-  - port: 80
-    targetPort: 9090
-    protocol: TCP
+    - port: 80
+      targetPort: 9090
+      protocol: TCP
   selector:
     app: api
   type: LoadBalancer
